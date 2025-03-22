@@ -18,13 +18,12 @@ const user3 = {
     age: 27,
     isMarried: false,
 };
-user3.name = "Hello Comilla"; //you can write this value because it's only read value
-const person = {
+//user3.name = "Hello Comilla"; //you can write this value because it's only read value
+const person2 = {
     name: "John",
     age: 30,
     salary: 1000,
     addSalary: function (money) {
-        return this.salary + money;
+        return `My new salary is: ${this.salary + money}`;
     },
 };
-const add = (a, b) => a + b;

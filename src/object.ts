@@ -35,7 +35,7 @@ const user3: {
   isMarried: false,
 };
 
-user3.name = "Hello Comilla"; //you can write this value because it's only read value
+//user3.name = "Hello Comilla"; //you can write this value because it's only read value
 
 const person2: {
   name: string;

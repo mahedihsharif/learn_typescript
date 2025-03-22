@@ -2,7 +2,7 @@ let num2: number[] = [10, 20, 30, 40];
 
 let person5: string[] = ["a", "b", "c", "d"];
 
-num2[2] = "sharif"; //you can't do this
+//num2[2] = "sharif"; //you can't do this
 
 let num3: any[] = [10, 20, 30, 40];
 
